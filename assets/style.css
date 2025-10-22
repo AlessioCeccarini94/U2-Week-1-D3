@@ -47,7 +47,7 @@ button img {
   border: 0px #ffdf7f;
 }
 
-#shop {
+#shop-btn {
   font-size: 2em;
 }
 
@@ -137,6 +137,39 @@ p {
 
 #description p {
   margin: 20px;
+}
+
+@media screen and (min-width: 270px) {
+  #description-card {
+    display: flex;
+    flex-direction: column;
+  }
+  #description {
+    flex-direction: column;
+  }
+  #card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  nav ul {
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+
+  nav li {
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  #shop {
+    order: -1;
+  }
+  section {
+    width: 100%;
+  }
+  #card-conteiner img {
+    width: auto;
+  }
 }
 @media screen and (min-width: 700px) {
   #description-card {
