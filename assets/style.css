@@ -139,7 +139,7 @@ p {
   margin: 20px;
 }
 
-@media screen and (min-width: 270px) {
+/* @media screen and (min-width: 270px) {
   #description-card {
     display: flex;
     flex-direction: column;
@@ -170,8 +170,8 @@ p {
   #card-conteiner img {
     width: auto;
   }
-}
-@media screen and (min-width: 700px) {
+} */
+/* @media screen and (min-width: 700px) {
   #description-card {
     display: flex;
     flex-direction: column;
@@ -187,4 +187,4 @@ p {
   nav li {
     padding: 0;
   }
-}
+} */
