@@ -138,7 +138,7 @@ p {
 #description p {
   margin: 20px;
 }
-@media screen and (min-width min-width 700px) {
+@media screen and (min-width: 700px) {
   #description-card {
     display: flex;
     flex-direction: column;
@@ -147,6 +147,11 @@ p {
     flex-direction: column;
   }
   #card {
+    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+  }
+  nav li {
+    padding: 0;
   }
 }
