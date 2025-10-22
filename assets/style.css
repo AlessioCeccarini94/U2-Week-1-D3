@@ -1,0 +1,152 @@
+body {
+  margin: 10px 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  background-color: #fbf7e3;
+  border-radius: 40px;
+}
+header {
+  display: flex;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: brown;
+}
+nav,
+ul {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  padding: 0 3em;
+  list-style: none;
+}
+
+button img {
+  width: 20px;
+  padding-right: 0.5em;
+}
+
+#navbar button {
+  display: flex;
+  border-radius: 40px;
+  padding: 1em;
+  background-color: #ffdf7f;
+  color: brown;
+  font-weight: bold;
+  border: 0px #ffdf7f;
+}
+
+#shop {
+  font-size: 2em;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  color: brown;
+}
+
+#card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#card-conteiner {
+  border: 1px solid #ffdf7f;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  border-radius: 90px;
+  background-color: #fbf7e3;
+  color: brown;
+  font-size: 1.5em;
+}
+
+#card-conteiner img {
+  width: 500px;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+}
+.card-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3em 0 3em 0;
+}
+h2 {
+  color: brown;
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+.description h4,
+p {
+  margin: 0;
+}
+
+#button-card-conteiner {
+  display: flex;
+  justify-content: center;
+}
+
+.button-card {
+  width: 40%;
+  margin-bottom: 30px;
+  border-radius: 40px;
+  padding: 1em 0;
+  border: #ffdf7f 0px;
+  background-color: #ffdf7f;
+  color: brown;
+  font-size: 1.2em;
+}
+
+#description-card {
+  display: flex;
+  margin-top: 50px;
+  border-radius: 40px;
+  background-color: #fbf7e3;
+  overflow: hidden;
+}
+
+#description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.4em;
+  color: brown;
+  margin-top: 20px;
+}
+
+#description h4 {
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+#description p {
+  margin: 20px;
+}
+@media screen and (min-width min-width 700px) {
+  #description-card {
+    display: flex;
+    flex-direction: column;
+  }
+  #description {
+    flex-direction: column;
+  }
+  #card {
+    justify-content: center;
+  }
+}
